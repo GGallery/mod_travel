@@ -13,7 +13,7 @@
     <authorEmail>info@ggallery.it</authorEmail>
     <authorUrl>www.ggallery.it</authorUrl>
     <version>1.3.9</version>
-    <description>Caress travel Module</description>
+    <description>travel Module</description>
     <files>
         <filename module="mod_travel">mod_travel.php</filename>
         <folder>tmpl</folder>
@@ -27,7 +27,7 @@
     </files>
 
     <updateservers>
-        <server type="extension" element="com_travel" name="travel" priority="1">https://raw.githubusercontent.com/GGallery/mod_travel_caress/master/modtravelupdate.xml</server>
+        <server type="extension" element="com_travel" name="travel" priority="1">https://raw.githubusercontent.com/GGallery/mod_travel/master/modtravelupdate.xml</server>
     </updateservers>
 
 
@@ -41,37 +41,10 @@
                     disable="separator"
                     label="Visuale"
                     description="Varia la vista ottuenuta"
-                    default="logo">
-                    <option value="barranav">Barra di navigazione</option>
-                    <option value="glossario">Pulsante glossario</option>
-                    <option value="attestati">Attestati Conseguiti</option>
-                    <option value="corsiabilitati">I miei corsi</option>
-                    <option value="corsiinscadenza">Corsi in scadenza</option>
-                    <option value="news">News</option>
-
+                    default="search">
+                    <option value="search">Modulo di ricerca</option>
                 </field>
-                <field
-                        name="lastcont"
-                        type="sql"
-                        label="Categoria"
-                        default="205"
-                        description="Scegli_la_categoria"
-                        showon="tipo:news"
-                        query="SELECT id as value, titolo as lastcont FROM #__gg_unit">
-
-                </field>
-                <field
-                        name="glossario"
-                        type="editor"
-                        disable="separator"
-                        label="Glossario"
-                        description="Glossario"
-                        default=""
-                        filter="safehtml"
-
-                />
             </fieldset>
-
 
         </fields>
     </config>

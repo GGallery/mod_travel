@@ -1,8 +1,4 @@
-<?php
-$unita=$params->get('lastcont');
-$ultimoArticolo=modtravelHelper::getUltimoArticolo($unita);
 
-?>
 <div class="news">
     <div class="text-center"><h3>CARIGELEARNING NEWS</h3></div>
     <div class="text-center">
