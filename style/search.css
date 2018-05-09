@@ -1,0 +1,55 @@
+#search_header {
+	font-size: 13px !important;
+	line-height: 1em !important;
+	width: 200px !important;
+	height: 9px !important;
+	border-radius: 5px !important;
+	padding: 16px !important;
+	margin-top: 5px;
+}
+
+
+
+/*SEARCH RESULT*/
+  #result_header {
+	  display: block;
+	  height: auto;
+	  position: absolute;
+	  z-index: 10000;
+  }
+
+.result-travel-h {
+	width: 200px;
+	background-color: white;
+	clear: both;
+	display: block;
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px dotted gray;
+	border-left: 2px solid white;
+
+}
+
+.result-travel-h:hover {
+	border-left: 2px solid grey;
+}
+
+
+.result-image-h{
+	display: block;
+	position: relative;
+	float: left;
+	margin: 5px;
+}
+
+.result-text-h{
+	display: block;
+	position: relative;
+	float: left;
+	width: auto;
+	padding: 5px;
+}
+
+.result-text-h a {
+	color: #000;
+}

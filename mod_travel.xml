@@ -43,6 +43,7 @@
                     description="Varia la vista ottuenuta"
                     default="search">
                     <option value="search">Modulo di ricerca</option>
+                    <option value="menu">Menu</option>
                 </field>
             </fieldset>
 

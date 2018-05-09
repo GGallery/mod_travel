@@ -1,0 +1,16 @@
+.menu > li{
+    color: white;
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0 2px;
+}
+
+.menu a {
+    color: white;
+}
+
+
+.logout {
+    font-size: 18px;
+}
