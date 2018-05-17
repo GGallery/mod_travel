@@ -44,6 +44,7 @@
                     default="search">
                     <option value="search">Modulo di ricerca</option>
                     <option value="menu">Menu</option>
+                    <option value="footer">Footer</option>
                 </field>
             </fieldset>
 

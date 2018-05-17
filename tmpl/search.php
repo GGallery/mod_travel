@@ -28,7 +28,7 @@
                         var singleTravel = '<div class="result-travel-h">' +
                             '<div class="result-image-h"><img width="40px" height="30px" src="/images/storage/_travel/'+ results[item].cover +'"></div>' +
                             '<div class="result-text-h text-left">' +
-                            '<a href="/hometravel/travel/'+ results[item].alias +'">'+ results[item].title +'</a>' +
+                            '<a href="/home/travel/'+ results[item].alias +'">'+ results[item].title +'</a>' +
                             '</div>' +
                             '</div>';
                         $('#result_header').append(singleTravel);

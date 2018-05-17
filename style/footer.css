@@ -1,0 +1,23 @@
+.travel_footer ul {
+    color: white !important;
+    list-style: none;
+    /*position: relative;*/
+    /*float: left;*/
+    margin: 0 2px;
+}
+
+.travel_footer li {
+    line-height: 1.5em;
+}
+
+.travel_footer a {
+    color: white;
+}
+
+
+
+
+.divided{
+
+    margin-left: 20px;
+}

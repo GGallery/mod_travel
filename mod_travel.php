@@ -9,6 +9,7 @@ defined('_JEXEC') or die;
 $doc = JFactory::getDocument();
 $doc->addStyleSheet(JURI::root(true) ."/modules/mod_travel/style/search.css");
 $doc->addStyleSheet(JURI::root(true) ."/modules/mod_travel/style/menu.css");
+$doc->addStyleSheet(JURI::root(true) ."/modules/mod_travel/style/footer.css");
 
 
 
