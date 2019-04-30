@@ -10,16 +10,27 @@
 
 
 
+
 			/*SEARCH RESULT*/
-			  #result_header {
-				  display: block;
-				  height: auto;
-				  position: absolute;
-				  z-index: 10000;
-			  }
+			#result_header {
+				display: block;
+				height: auto;
+				position: absolute;
+				z-index: 10000;
+				background-color: #229d5c;
+				margin-top: -9px;
+				width: 270px;
+				padding: 0px 5px;
+				border-radius: 2px;
+				margin-left: 3px;
+				color: white;
+			}
+
+
+
 
 			.result-travel-h {
-				width: 200px;
+				width: 100%;
 				background-color: white;
 				clear: both;
 				display: block;

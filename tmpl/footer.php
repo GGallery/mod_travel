@@ -1,3 +1,9 @@
+<?php
+    $countTb = modtravelHelper::countTb();
+    $countTravel = modtravelHelper::countTravel();
+?>
+
+
 <div class="container travel_footer mb-3 ">
     <div class="row">
         <div class="col-md-4 center">
@@ -18,15 +24,11 @@
                 </li>
 
                 <li>
-                    <a href="/site/2-come-funziona">COME FUNZIONA</a>
-                </li>
-
-                <li>
                     <a href="/contatti/1-info.html">SUGGERIMENTI</a>
                 </li>
 
                 <li>
-                    <a href="/site/disclaimer">DISCLAIMER</a>
+                    <a href="/condizioni.html">PRIVACY POLICY</a>
                 </li>
 
 
@@ -43,24 +45,13 @@
             <ul class="divided ">
 
                 <li>
-                    <a href="#">20 Travel Blogger</a>
+                    <a href="/tblist"><?php echo $countTb; ?> Travel Blogger</a>
                 </li>
 
                 <li>
-                    <a href="#">400 Posti visitati</a>
+                    <a href="/travellist"><?php echo $countTravel; ?> posti visitati</a>
                 </li>
 
-                <li>
-                    <a href="#">Filosofia dei Travel Blogger</a>
-                </li>
-
-                <li>
-                    <a href="#">Perchè i Travel Blogger</a>
-                </li>
-
-                <li>
-                    <a href="#">Diventa Travel Blogger</a>
-                </li>
                 <li>
                     <a href="/blog/">BLOG</a>
                 </li>
@@ -73,15 +64,12 @@
         <div class="col-md-4 center">
             <header>
                 <h4 class="fa fa-2x fa-camera circled">
-                    Info contenuti
+                    Social
                 </h4>
             </header>
 
             <ul class="icons">
-                <li><a href="#" class="fa fa-twitter">  Twitter </a></li>
                 <li><a href="https://www.facebook.com/fyltravel/" class="fa fa-facebook">  Facebook </a></li>
-                <li><a href="#" class="fa fa-instagram"> Instagram </a></li>
-                <li><a href="#" class="fa fa-pinterest"> Pinterest </a></li>
             </ul>
 
         </div>

@@ -14,6 +14,7 @@
     <authorUrl>www.ggallery.it</authorUrl>
     <version>1.3.9</version>
     <description>travel Module</description>
+
     <files>
         <filename module="mod_travel">mod_travel.php</filename>
         <folder>tmpl</folder>
@@ -22,15 +23,12 @@
         <filename>index.html</filename>		
         <filename>mod_travel.xml</filename>
         <filename>modtravelupdate.xml</filename>
-        <filename>mod_travel.css</filename>
         <filename>infobox.png</filename>
     </files>
 
     <updateservers>
         <server type="extension" element="com_travel" name="travel" priority="1">https://raw.githubusercontent.com/GGallery/mod_travel/master/modtravelupdate.xml</server>
     </updateservers>
-
-
 
     <config>
         <fields name="params">
@@ -45,6 +43,7 @@
                     <option value="search">Modulo di ricerca</option>
                     <option value="menu">Menu</option>
                     <option value="footer">Footer</option>
+                    <option value="sociallogin">Social Login</option>
                 </field>
             </fieldset>
 
