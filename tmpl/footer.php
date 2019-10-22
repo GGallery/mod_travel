@@ -69,7 +69,8 @@
             </header>
 
             <ul class="icons">
-                <li><a href="https://www.facebook.com/fyltravel/" class="fa fa-facebook">  Facebook </a></li>
+                <li><a target="_blank" href="https://www.facebook.com/fyltravel/" class="fa fa-facebook">  Facebook </a></li>
+                <li><a target="_blank" href="https://www.instagram.com/fyl_travel/" class="fa fa-instagram">  Instagram </a></li>
             </ul>
 
         </div>

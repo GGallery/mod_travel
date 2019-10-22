@@ -66,6 +66,7 @@ class modtravelHelper
                 ->where('u.tipologia = 2')
             ;
 
+
             $db->setQuery($query);
             $res = $db->loadResult();
         } catch (Exception $e) {
